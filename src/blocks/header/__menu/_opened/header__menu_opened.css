@@ -1,0 +1,12 @@
+.header__menu_opened {
+    display: none;
+    border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  @media screen and (max-width: 628px) {
+    .header__menu_opened {
+      display: flex;
+    }
+  }

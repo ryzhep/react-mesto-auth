@@ -1,0 +1,24 @@
+.profile__open-popup {
+    color: #fff;
+    background-color:rgba(0,0,0,0);
+    border: 1px solid #fff;
+    margin: 37px 0 0 19px;
+    max-width: 24px;
+    max-height: 24px;
+    display: grid;
+    align-items: center;
+    cursor: pointer;
+}
+
+.profile__open-popup:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 425px) {
+    .profile__open-popup {
+        box-sizing: border-box;
+        max-width: 18px;
+        max-height: 18px;
+        margin: 10px 0 0 10px;
+    }
+}

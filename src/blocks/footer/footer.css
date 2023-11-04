@@ -1,0 +1,26 @@
+.footer {
+    color: rgba(84, 84, 84, 1);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    max-width: 880px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        max-width: 730px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer {
+        margin: 48px auto 36px auto;
+        font-size: 14px;
+        max-width: 282px;
+    }
+}

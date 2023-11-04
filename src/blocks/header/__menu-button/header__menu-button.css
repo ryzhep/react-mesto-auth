@@ -1,0 +1,30 @@
+.header__menu-button {
+    background-image: url(../../../images/menu-icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+    width: 24px;
+    height: 20px;
+    padding: 0;
+    opacity: 1;
+    display: none;
+    align-self: center;
+    cursor: pointer;
+  }
+  .header__menu-button:hover {
+    opacity: 0.6;
+  }
+  
+  @media screen and (max-width: 628px) {
+    .header__menu-button {
+      display: flex;
+    }
+  }
+  
+  .header__menu-button {
+    transition: transform 0.3s ease-in;
+  }
+  .header__menu-button:hover {
+    transform: scale(0.9);
+  }

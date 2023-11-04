@@ -1,0 +1,23 @@
+.header__menu-quit {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    background-color: transparent;
+    border: none;
+    color: rgba(169, 169, 169, 1);
+    text-decoration: none;
+    margin: 0 0 0 24px;
+    padding: 0;
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+    cursor: pointer;
+  }
+  .header__menu-quit:hover {
+    opacity: 0.6;
+  }
+  
+  @media screen and (max-width: 935px) {
+    .header__menu-quit  {
+      padding-right: 27px;
+    }
+  }

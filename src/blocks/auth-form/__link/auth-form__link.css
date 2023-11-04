@@ -1,0 +1,10 @@
+.auth-form__link {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Inter;
+    line-height: normal;
+    text-decoration: none;
+  }

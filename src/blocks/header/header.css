@@ -1,0 +1,29 @@
+.header {
+    max-width: 880px;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+  }
+  @media screen and (max-width: 1279px) {
+    .header {
+      width: 100%;
+      margin: 0px auto 42px;
+    }
+  }
+  @media screen and (max-width: 917px) {
+    .header {
+      max-width: 600px;
+      justify-self: center;
+      /* margin: 0px auto 42px; */
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .header {
+      max-width: 320px;
+      /* margin: 0px auto 42px; */
+    }
+  }

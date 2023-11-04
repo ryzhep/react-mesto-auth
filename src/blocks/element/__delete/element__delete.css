@@ -1,0 +1,13 @@
+.element__delete{
+    background-image: url(../../../images/Group.png);
+    background-repeat: no-repeat;
+    margin-left: 245px;
+    margin-top: 19px;
+    position: absolute;
+    min-width: 20px;
+    min-height: 20px;
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    cursor: pointer;
+   /*display: none;*/
+}

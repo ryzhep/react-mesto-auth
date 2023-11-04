@@ -1,0 +1,9 @@
+.element__like-elements {
+    display: flex;
+    flex-direction: column;
+    width: 22px;
+    margin: 0px;
+    padding: 0px;
+    align-content: center;
+    justify-content: center;
+  }

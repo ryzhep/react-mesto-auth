@@ -1,0 +1,6 @@
+.popup__infoTooltip-image {
+    display: flex;
+    max-width: 120px;
+    max-height: 120px;
+    margin: 60px auto 32px;
+  }

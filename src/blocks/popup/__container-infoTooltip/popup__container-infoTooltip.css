@@ -1,0 +1,8 @@
+.popup__container-infoTooltip {
+    max-width: 430px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 195px auto 0;
+    position: relative;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+  }
